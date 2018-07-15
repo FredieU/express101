@@ -1,0 +1,20 @@
+<% include partials/header %>
+
+<h1>Input MTG card</h1>
+<form method="POST" action="/users/add">
+  <label>Name</label><br>
+  <input type="text" name="cardName">
+  <br>
+  <label>Colour</label><br>
+  <input type="text" name="cardColour">
+  <br>
+  <label>Mana cost</label><br>
+  <input type="text" name="cardCost">
+  <br><br>
+  <button type="submit" value="Submit">
+    Add card
+  </button>
+
+</form>
+
+<% include partials/footer %>  
